@@ -1,0 +1,50 @@
+.alex{
+    border: 1px solid black;
+}
+
+h2{
+    color: skyblue;
+}
+
+#section{
+    border: 1px solid black;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.😁{
+    color: darkblue;
+}
+
+a[href]{
+    text-decoration: none;
+}
+[href="https://alexcgdesing.com/inicio"]{
+    color: darkred;
+}
+
+/*AltGr + { = ^
+^ = indica que solo tome el elemento que inicie con la palabra clave 
+[href^="la palabra clave"]*/
+
+[href^="hsttps"]{
+    color: darkolivegreen;
+}
+/*shitf + 4 = $
+Indica que solo tome el elemento que termina con la palabra clave
+[href$="la palabra clave"]*/
+
+[href$="org"]{
+    background: steelblue;
+    color: white;
+}
+/*shit + [+] = [*] 
+Indica que solo toma los elementos que sean igual a la palabra clave
+[href*="palabra clave"]*/
+
+[href*="alexcgdesing"]{
+    background: salmon;
+}
+

@@ -1,0 +1,44 @@
+h2,h3{
+    font-size: 25px;
+    font-family: 'Arial';
+}
+
+/* 
+> Para escoger a los hijos unicos
+contenedor > p{
+    background: skyblue;   
+}
+
+. para escoger elemento y clase
+nav.contenedor{
+    background: skyblue;
+}
+*/
+
+.contenedor a{
+    text-align: none;
+    color: firebrick;
+}
+
+.contenedor>a{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*+ para escoger al primer hermano del elemento seleccionado
+h2+p{
+
+}*/
+
+h2+p{
+    color: gold;
+}
+
+/*AltGr + [+] = ~ escoge a los hermanos del elemento selecionado
+h3~p{
+    
+}*/
+
+h3~p{
+    color: indigo;
+}

@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+
+.box{
+    width: 200px;
+    height: 100px;
+}
+
+
+.box1{
+    background: skyblue;
+    /* margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    margin-right: 25px; */
+}
+
+.box2{
+    box-sizing: border-box;
+    background: tomato;
+    padding: 10px 0px 15px 10px;
+    overflow: hidden;
+}
+
